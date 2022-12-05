@@ -1,7 +1,7 @@
 defmodule Day03Test do
   use ExUnit.Case
 
-  test "returns the total score when following the strategy guide" do
+  test "returns the sum of the prioritized items" do
     assert Day03.item_priority_sum(rucksack_contents()) == 157
   end
 
